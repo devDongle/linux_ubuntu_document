@@ -53,4 +53,6 @@ umonut /dev/sdc
 ```shell script
 sudo mkfs.exfat /dev/sdc1
 ```  
-  - 3.2.에서 sdc1 이 아닌 다른 알파벳 혹은 파티션 번호를 주었다면 그에 맞게 입력하면 됩니다.
+  - 3.2.에서 sdc1 이 아닌 다른 알파벳 혹은 파티션 번호를 주었다면 그에 맞게 입력하면 됩니다.  
+  *만약 `sudo: mkfs.exfat: command not found` 같은 에러가 발생한다면  
+   `sudo apt install exfat-utils` 설치하여 해결할 수 있습니다.
