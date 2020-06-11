@@ -1,6 +1,6 @@
 # 우분투 계정명 변경 및 부가작업
 해당 글은 아래 링크를 참조하였습니다.  
-우석님 블로그: https://xevolts.tistory.com/10
+참고한 블로그: https://xevolts.tistory.com/10
 
 로컬 데스크탑에서 `ssh`로 작업중인 Jetson TX2의 우분투 초기설정을 너무 대충해서
 계정명을 바꿀 필요가 있다고 판단했습니다. 
