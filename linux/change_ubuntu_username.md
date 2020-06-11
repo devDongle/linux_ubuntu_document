@@ -26,8 +26,7 @@ su root
 ```shell script
 usermod -l <new_username> <old_username>
 usermod -l /home/<new_username> <new_username>
-```
-ex)  
+``` 
 ![](change_ubuntu_username/image01.png)  
 
 ## 3. 소유권한 정리
