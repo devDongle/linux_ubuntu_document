@@ -15,7 +15,6 @@ sudo adduser tmpuser sudo
 ```
 - 아래와 같이 결과가 나옵니다. 현재 저의 우분투 계정명은 'tx2'로 설정되어 있습니다.
 ![](change_ubuntu_username/image00.png)  
-<br>  
 - 로그 아웃 후에 다시 `tmpuser` 계정으로 로그인 합니다. 
 
 ## 2. root 계정으로 변경 후 사용자 이름 변경
@@ -28,13 +27,13 @@ su root
 usermod -l <new_username> <old_username>
 usermod -l /home/<new_username> <new_username>
 ```
-ex)
+ex)  
 ![](change_ubuntu_username/image01.png)  
 
 ## 3. 소유권한 정리
 해당 상태에서 루트 홈 디렉토리로 가서 있는 홈 디렉토리들을 자세히 살펴보면 뭔가 이상합니다.
-`tmpuser` 는 그렇다치고 저의 구 `tx2`계정과 새로만든 `dyseo` 계정의 소유권한이 
-섞여있는 것을 볼 수 있습니다.
+`tmpuser` 는 그렇다치고 저의 기존 `tx2`계정과 새로만든 `dyseo` 계정의 소유권한이 
+섞여있는 것을 볼 수 있습니다.  
 ![](change_ubuntu_username/image02.png)
 - 그룹명도 변경해줍니다.
 ```shell script
