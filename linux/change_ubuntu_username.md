@@ -25,7 +25,7 @@ su root
 - 새로운 사용자 이름으로 바꾸어줍니다.
 ```shell script
 usermod -l <new_username> <old_username>
-usermod -l /home/<new_username> <new_username>
+usermod -m -d /home/<new_username> <new_username>
 ``` 
 ![](change_ubuntu_username/image01.png)  
 
