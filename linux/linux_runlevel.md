@@ -61,4 +61,4 @@ sudo systemctl set-default rescue.tartget
 ```shell script
 sudo systemctl set-default graphical.target
 ```
-입력 후 재부팅을 하면 됩니다.
+위와 같이 입력 후 재부팅을 하면 됩니다.
